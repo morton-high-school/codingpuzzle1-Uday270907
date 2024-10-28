@@ -8,7 +8,7 @@ public class puzzle1{
         String text = reader.nextLine();
         String word = "giraffe";
         int count = 0;
-        System.out.println(text.length());
+        // System.out.println(text.length());
         // for(int i = 0; i < text.length()-8; i++){
         //     if(text.substring(i, i+8).equals("giraffe")){
         //         count++;
@@ -37,9 +37,9 @@ public class puzzle1{
                 }
             }
         }
-        // System.out.println(pos);
-        // System.out.println(greatest * 2);
-        // System.out.println(text.substring(pos+greatest*2, pos+greatest*2+125));
+        System.out.println(pos);
+        System.out.println(greatest * 2);
+        System.out.println(text.substring(pos+greatest*2, pos+greatest*2+125));
         // for(int i = 0; i<text.length()-30; i++){
         //     for(int j = 0; j<30; j++){
         //         if(text.substring(i+j, i+j+1).equals("u") || text.substring(i+j, i+j+1).equals("o") || text.substring(i+j, i+j+1).equals("a") || text.substring(i+j, i+j+1).equals("e") || text.substring(i+j, i+j+1).equals("i")){
